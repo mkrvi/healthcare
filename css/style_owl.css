@@ -1,0 +1,62 @@
+.easy_steps_box .owl-nav .owl-prev{
+    position: absolute;
+    left: 0;
+    top: 70px;
+}
+.easy_steps_box .owl-nav .owl-prev:before{
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f053";
+    color: black;
+    font-size: 30px;
+}
+.easy_steps_box .owl-nav .owl-next{
+    position: absolute;
+    right: 0;
+    top: 70px;
+}
+.easy_steps_box .owl-nav .owl-next:before{
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f054";
+    color: black;
+    font-size: 30px;
+}
+.our_service .owl-carousel button.owl-dot.active{
+    width: 60px;
+    height: 15px;
+    background: #40A3F8;
+    border-radius: 6px;
+}
+.our_service .owl-carousel button.owl-dot{
+    width: 18px;
+    height: 18px;
+    background: #FFFFFF;
+    margin-right: 15px;
+    border-radius: 18px;
+}
+.clients .owl-nav .owl-prev{
+    position: absolute;
+    left: -10px;
+    top: 90px;
+}
+.clients .owl-nav .owl-prev:before {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 600;
+    content: "\f053";
+    color: black;
+    font-size: 25px;
+}
+
+.clients .owl-nav .owl-next{
+    position: absolute;
+    right: -10px;
+    top: 90px;
+}
+.clients .owl-nav .owl-next:before {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 600;
+    content: "\f054";
+    color: black;
+    font-size: 25px;
+}
