@@ -999,23 +999,24 @@ footer .bottom_footer .rights .rights_reserved p {
   font: 14px/14px "dm_sansregular";
   color: #646464;
 }
-footer .bottom_footer .rights .privacy a {
+footer .bottom_footer .rights .privacy span {
   margin-right: 50px;
 }
 @media screen and (max-width: 767px) {
-  footer .bottom_footer .rights .privacy a {
+  footer .bottom_footer .rights .privacy span {
     margin-right: 20px;
   }
 }
 @media screen and (max-width: 428px) {
-  footer .bottom_footer .rights .privacy a {
+  footer .bottom_footer .rights .privacy span {
     margin-right: 12px;
   }
 }
-footer .bottom_footer .rights .privacy a:last-of-type {
+footer .bottom_footer .rights .privacy span:last-of-type {
   margin-right: 0;
 }
-footer .bottom_footer .rights .privacy a p {
+footer .bottom_footer .rights .privacy span a {
+  text-decoration: none;
   font: 14px/14px "dm_sansregular";
   color: #646464;
 }

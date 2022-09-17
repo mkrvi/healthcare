@@ -1010,7 +1010,7 @@ header {
           }
         }
         .privacy{
-          a{
+          span{
             margin-right: 50px;
             @include max-screen(767px){
               margin-right: 20px;
@@ -1022,7 +1022,8 @@ header {
               margin-right: 0;
             }
 
-            p{
+            a{
+              text-decoration: none;
               font: 14px/14px 'dm_sansregular';
               color: #646464;
               }
